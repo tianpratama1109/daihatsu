@@ -49,6 +49,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     margin-bottom: 0;
 }
 
+#hargadetail .btn-primary {
+    color: #fff;
+    background-color: #337ab700;
+    border-color: #337ab700;
+  }
+
 #hargadetail .carousel {
     margin-bottom: 0;
   padding: 0 40px 30px 40px;
