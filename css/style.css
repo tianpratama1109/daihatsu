@@ -49,10 +49,23 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     margin-bottom: 0;
 }
 
+#hargadetail .thumbnail {
+    display: block;
+    padding: 4px;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #fff0;
+    border: 1px solid #fff0;
+    border-radius: 4px;
+    -webkit-transition: border .2s ease-in-out;
+    -o-transition: border .2s ease-in-out;
+    transition: border .2s ease-in-out;
+}
+
 #hargadetail .btn-primary {
     color: #fff;
-    background-color: #337ab700;
-    border-color: #337ab700;
+    background-color: #bdbdbd;
+    border-color: #bdbdbd;
   }
 
 #hargadetail .carousel {
@@ -147,7 +160,9 @@ input[type="submit"],.agileinfo_chat a,.w3ls_footer_grid1_left p a,.w3l_sign_in_
   width: 100%;
   height: 42vh;
   position: relative;
-  background-color: #FF0000;
+  background-image: linear-gradient(125deg,#FF0000,#ffc107);
+  background-size: 400% 400%;
+  animation: bganimation 15s infinite;
 /*  background: #f5f8fd url("../img/intro-bg.jpg") center top no-repeat;*/
   background-size: cover;
 }
@@ -864,6 +879,16 @@ transform: scale(1); }
     width: 345px;
     border-bottom: 10px solid #BA3939;
 }
+.garisdokumentasi{
+    position: relative;
+    left: -140px;
+    top: -20px;
+    /* content: ""; */
+    display: block;
+    margin: 20px auto 15px -60px;
+    width: 490px;
+    border-bottom: 10px solid #BA3939;
+}
 .gariskontak{
     position: relative;
     left: -149px;
@@ -1349,6 +1374,16 @@ h2.typoh2{
 }
 
 @media (max-width: 450px) {
+  .garisdokumentasi{
+    position: relative;
+    left: -140px;
+    top: -20px;
+    /* content: ""; */
+    display: block;
+    margin: 20px auto 15px -60px;
+    width: 386px;
+    border-bottom: 10px solid #BA3939;
+  }
   .review{
     position: relative;
     left: -149px;
