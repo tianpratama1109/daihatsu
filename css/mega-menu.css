@@ -8,7 +8,11 @@
     height: auto;
     margin: 0;
     padding: 0;
-    margin-right: 20px;
+    margin-right: 0px;
+}
+
+#nav2 ..fa-5x {
+    font-size: 4.3em;
 }
 
 #nav2 .navbar-brand {
