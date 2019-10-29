@@ -880,6 +880,16 @@ transform: scale(1); }
     width: 345px;
     border-bottom: 10px solid #BA3939;
 }
+.garistentang{
+    position: relative;
+    left: -140px;
+    top: -20px;
+    /* content: ""; */
+    display: block;
+    margin: 20px auto 15px -60px;
+    width: 499px;
+    border-bottom: 10px solid #BA3939;
+}
 .garisdokumentasi{
     position: relative;
     left: -140px;
@@ -1375,6 +1385,18 @@ h2.typoh2{
 }
 
 @media (max-width: 450px) {
+
+  .garistentang{
+    position: relative;
+    left: -140px;
+    top: -20px;
+    /* content: ""; */
+    display: block;
+    margin: 20px auto 15px -60px;
+    width: 389px;
+    border-bottom: 10px solid #BA3939;
+  }
+
   .jumbotron {
   height: 750px;
   padding: 2rem 1rem;
