@@ -296,7 +296,7 @@ input[type="submit"],.agileinfo_chat a,.w3ls_footer_grid1_left p a,.w3l_sign_in_
 #intro .intro-info .btn-services {
   font-family: "Montserrat", sans-serif;
   font-size: 13px;
-  font-weight: 600;
+  font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 1px;
   display: inline-block;
@@ -536,9 +536,16 @@ box-shadow: 0px 2px 6px 0px rgba(230,230,230,1);}
     border-radius: 3rem;
 }
 
+.buttons4 {
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 3rem;
+}
+
+
 .btn-hover {
     font-size: 16px;
-    font-weight: 600;
+    font-weight: bold;
     color: #fff;
     cursor: pointer;
     height: 55px;
@@ -555,7 +562,7 @@ box-shadow: 0px 2px 6px 0px rgba(230,230,230,1);}
 .btn-hover2 {
     width: 200px;
     font-size: 16px;
-    font-weight: 600;
+    font-weight: bold;
     color: #fff;
     cursor: pointer;
     height: 35px;
@@ -574,12 +581,34 @@ box-shadow: 0px 2px 6px 0px rgba(230,230,230,1);}
   color: #000;
 }
 
+.btn-hover4.color-4>span{
+  color: #000;
+}
+
 .btn-hover3 {
     width: 450px;
     font-size: 16px;
-    font-weight: 600;
+    font-weight: bold;
     color: #fff;
     border-radius: 3rem;
+    cursor: pointer;
+    height: 60px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+    margin-bottom: 20px;
+
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover4 {
+    width: 275px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
     cursor: pointer;
     height: 60px;
     text-align:center;
@@ -617,6 +646,13 @@ box-shadow: 0px 2px 6px 0px rgba(230,230,230,1);}
     transition: all .4s ease-in-out;
 }
 
+.btn-hover4:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
 
 .btn-hover:focus {
     outline: none;
@@ -628,6 +664,9 @@ box-shadow: 0px 2px 6px 0px rgba(230,230,230,1);}
 .btn-hover3:focus {
     outline: none;
 }
+.btn-hover4:focus {
+    outline: none;
+}
 
 
 .btn-hover.color-1 {
@@ -636,8 +675,13 @@ box-shadow: 0px 2px 6px 0px rgba(230,230,230,1);}
 }
 .btn-hover2.color-2 {
     background-image: linear-gradient(to top, #FF0F00,#FF0F00, #FF0F00);
-    box-shadow: 0 4px 15px 0 rgb(83, 81, 95);
+    box-shadow: 0 4px 3px 0 rgb(83, 81, 95);
 }
+
+.btn-hover4.color-4 {
+    background-image: linear-gradient(to top, #FF0F00,#FF0F00, #FF0F00);
+}
+
 .btn-hover3.color-3 {
     font-size: 30px;
     background-image: linear-gradient(to top, #FF0F00,#FF0F00, #FF0F00);
@@ -1004,6 +1048,16 @@ transform: scale(1); }
     width: 499px;
     border-bottom: 10px solid #BA3939;
 }
+.garisalamat{
+    position: relative;
+    left: -140px;
+    top: -20px;
+    /* content: ""; */
+    display: block;
+    margin: 20px auto 15px -60px;
+    width: 357px;
+    border-bottom: 10px solid #BA3939;
+}
 .garisdokumentasi{
     position: relative;
     left: -140px;
@@ -1165,7 +1219,7 @@ transform: scale(1); }
 }
 .pen-title span a {
   color: #33b5e5;
-  font-weight: 600;
+  font-weight: bold;
   text-decoration: none;
 }
 
@@ -1652,6 +1706,18 @@ h2.typoh2{
     width: 386px;
     border-bottom: 10px solid #BA3939;
   }
+
+  .garisalamat{
+    position: relative;
+    left: -140px;
+    top: -20px;
+    /* content: ""; */
+    display: block;
+    margin: 20px auto 15px -60px;
+    width: 300px;
+    border-bottom: 10px solid #BA3939;
+  }
+
   .review{
     position: relative;
     left: -149px;
@@ -1714,7 +1780,7 @@ h2.typoh2{
   .btn-hover3 {
       width: 300px;
       font-size: 14px;
-      font-weight: 600;
+      font-weight: bold;
       color: #fff;
       border-radius: 3rem;
       cursor: pointer;
