@@ -34,6 +34,31 @@ License URL: http://creativecommons.org/licenses/by/3.0/
   font-family: sans-serif;
 }
 
+.judulberita {
+  margin-top: 10px;
+}
+
+#beritalainnya span{
+    color: #fff;
+    padding: 4px 10px 4px 10px;
+    background-color: #FF0000;
+    border-radius: 5px;
+    font-family: inherit;
+    font-size: 12px;
+}
+
+#headerberita span{
+    color: #fff;
+    padding: 4px 10px 4px 10px;
+    background-color: #FF0000;
+    border-radius: 1px;
+    font-family: inherit;
+    font-size: 12px;
+}
+#headerberita .date{
+    font-size: 15px;
+    padding: 4px 10px 4px 10px;
+}
 #berita .media-body {
     padding: 10px;
 }
@@ -48,7 +73,30 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 #jumbotron .carousel {
     margin-bottom: 0;
 }
+#beritalainnya .thumbnail {
+    display: block;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: #000;
+    border-radius: 4px;
+    -webkit-transition: border .2s ease-in-out;
+    -o-transition: border .2s ease-in-out;
+    transition: border .2s ease-in-out;
+}
+#beritalainnya .thumbnail {
+    position: relative;
+    padding: 0px;
+    margin-bottom: 20px;
+}
 
+#beritalainnya .caption .date{
+    font-size: 12px;
+    padding: 4px 10px 4px 10px;
+}
+
+#beritalainnya .thumbnail img {
+    width: 100%;
+  }
 #hargadetail .thumbnail {
     display: block;
     padding: 4px;
@@ -94,6 +142,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 background: #333333;
 }
 
+.container {
+    width: 97%;
+}
+.row{
+  margin: 0;
+}
 #dokumentasi .margin30 {
     margin-bottom: 30px;
 }
@@ -235,7 +289,6 @@ p{
 }
 h1,h2,h3,h4,h5,h6,a{
   font-family: sans-serif;
-  margin:0;
 }
 ul,label{
   margin:0;
@@ -1028,6 +1081,13 @@ transform: scale(1); }
   height: 36px;
   transition: 0.3s;
 }
+.garisberita{
+    position: absolute;
+    top: 10px;
+    margin-left: -15px;
+    width: 6px;
+    border-bottom: 85px solid #000;
+  }
 .garisprofil{
     position: relative;
     left: -140px;
@@ -1076,6 +1136,26 @@ transform: scale(1); }
     display: block;
     margin: 20px auto 15px -60px;
     width: 370px;
+    border-bottom: 10px solid #BA3939;
+}
+.garisberitapilihan{
+    position: relative;
+    left: -149px;
+    top: -20px;
+    /* content: ""; */
+    display: block;
+    margin: 20px auto 15px -60px;
+    width: 523px;
+    border-bottom: 10px solid #BA3939;
+}
+.garisberitalainnya{
+    position: relative;
+    left: -149px;
+    top: -20px;
+    /* content: ""; */
+    display: block;
+    margin: 20px auto 15px -60px;
+    width: 540px;
     border-bottom: 10px solid #BA3939;
 }
 .gariskritik{
@@ -1147,6 +1227,7 @@ transform: scale(1); }
     text-align: right;
 }
 .w3ls_footer_grid{
+  margin: 20px 0 20px 0;
   border-bottom:1px solid #999;
 }
 .w3ls_footer_grid1_left p{
@@ -1563,9 +1644,33 @@ h2.typoh2{
 }
 
 @media (max-width: 450px) {
+  .garisberitapilihan{
+    position: relative;
+    left: -149px;
+    top: -20px;
+    /* content: ""; */
+    display: block;
+    margin: 20px auto 15px -60px;
+    width: 523px;
+    border-bottom: 10px solid #BA3939;
+  }
+  .garisberitalainnya{
+    position: relative;
+    left: -149px;
+    top: -20px;
+    /* content: ""; */
+    display: block;
+    margin: 20px auto 15px -60px;
+    width: 540px;
+    border-bottom: 10px solid #BA3939;
+  }
+  .judulberita {
+    font-size: 15px;
+    margin-top: 10px;
+  }
   #dokumentasi .margin30 {
     margin-bottom: 30px;
-}
+  }
 
   #dokumentasi .item-img-wrap {
       position: relative;
@@ -2161,10 +2266,6 @@ h3.head {
   h3.icon-subheading {
     font-size: 25px;
   }
-  .row {
-    margin-right: 0;
-    margin-left: 0;
-  }
   .icon-box {
     margin: 0;
   }
@@ -2174,6 +2275,13 @@ h3.head {
     /* show 3 items */
 }
 @media (max-width:767px){
+  .garisberita {
+    position: absolute;
+    top: 0px;
+    margin-left: -15px;
+    width: 6px;
+    border-bottom: 85px solid #000;
+  }
     #intro {
     height: auto;
     padding: 80px 0 60px 0;
