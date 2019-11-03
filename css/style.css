@@ -144,6 +144,7 @@ background: #333333;
 
 .container {
     width: 97%;
+    padding: 0;
 }
 .row{
   margin: 0;
