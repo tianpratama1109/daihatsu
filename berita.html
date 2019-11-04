@@ -30,7 +30,7 @@
 		});
 	});
 </script>
-<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
 
 </head>
 	
@@ -129,7 +129,7 @@ img{width:100%;height:auto;}
 			                <!-- <ol class="carousel-indicators">
 			                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
 			                    <li data-target="#myCarousel" data-slide-to="1"></li>
-			                </ol> -->
+							</ol> -->
 			                 
 			                <!-- Carousel items -->
 			                <div class="carousel-inner">
@@ -223,9 +223,9 @@ img{width:100%;height:auto;}
 									  </div>
 								
 			                </div><!--/carousel-inner-->
-			                </div><!--/myCarousel-->
-				            <button style="margin-top: 10%;position: absolute;top: 0;left: 0;font-size: 20px;color: #fff;text-align: center;" class="btn btn-primary left" href="#myCarousel" data-slide="prev"><</button>
-				            <button style="margin-top: 10%;position: absolute;top: 0;right: 0;font-size: 20px;color: #fff;text-align: center;"  class="btn btn-primary right" href="#myCarousel" data-slide="next">></button> 
+							</div><!--/myCarousel-->
+				            <button style="margin-top: 10%;position: absolute;top: 0;left: 0;font-size: 20px;color: #fff;text-align: center;" class="slick-prev btn btn-primary left" aria-hidden="true" ><</button>
+				            <button style="margin-top: 10%;position: absolute;top: 0;right: 0;font-size: 20px;color: #fff;text-align: center;"  class="slick-next btn btn-primary right" aria-hidden="true">></button> 
 
 					</div>
 			    </div>
@@ -359,7 +359,7 @@ img{width:100%;height:auto;}
 <script src="js/bootstrap.min.js"></script>
 <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script>
 <script>
 $(document).ready(function(){
     $(".dropdown").hover(            
@@ -533,8 +533,11 @@ $(document).ready(function(){
 	</script> -->
 	<script type="text/javascript">
 	$('.carousel-inner').slick({
-  dots: true,
+  dots: false,
   infinite: false,
+  arrows : true,
+  prevArrow: $('.slick-prev'),
+  nextArrow: $('.slick-next'),
   speed: 300,
   slidesToShow: 4,
   slidesToScroll: 4,
