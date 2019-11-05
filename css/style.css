@@ -38,6 +38,42 @@ License URL: http://creativecommons.org/licenses/by/3.0/
   margin-top: 10px;
 }
 
+#beritasorotan .container .row{
+  bottom: 10px;
+
+}
+
+#beritasorotan span{
+  color: #FF0000;
+  top: -158px;
+  padding: 6px 8px 4px 6px;
+  background-color: #FFF;
+  border-radius: 0px;
+  font-family: inherit;
+  font-size: 17px;
+  position: relative;
+
+}
+
+#beritasorotan h2{
+  color: rgb(0, 0, 0);
+  top: -109px;
+  padding: 6px 8px 6px 8px;
+  background-color: #FFF;
+  border-radius: 0px;
+  font-family: inherit;
+  font-size: 17px;
+  position: relative;
+  margin-left: 10px;
+  margin-right: 10px;
+
+}
+
+#beritasorotan img{
+  width: 100%;
+  height: 181px;
+}
+
 #beritalainnya span{
     color: #fff;
     padding: 4px 10px 4px 10px;
@@ -46,6 +82,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     font-family: inherit;
     font-size: 12px;
 }
+
 
 #headerberita span{
     color: #fff;
