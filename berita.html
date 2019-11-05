@@ -72,7 +72,7 @@
 .caption-left{position:absolute;top:50%;left:0%;transform:translate(0%,-50%);-ms-transform:translate(-0%,-50%)}
 .caption-right{position:absolute;top:50%;right:0%;transform:translate(0%,-50%);-ms-transform:translate(0%,-50%)}
 .caption-topmiddle{position:absolute;left:50%;top:0;transform:translate(-50%,0%);-ms-transform:translate(-50%,0%)}
-.caption-bottommiddle{position:absolute;left:50%;bottom:0;transform:translate(-50%,0%);-ms-transform:translate(-50%,0%)}
+.caption-bottommiddle{position:absolute;left:50%;bottom:0;transform:translate(-50%,0%);-ms-transform:translate(-50%,0%);width: 100%; opacity: 0.5;height: 30%;}
 
 /*style the demo*/
 img{width:100%;height:auto;}
@@ -93,9 +93,64 @@ img{width:100%;height:auto;}
 .leftbar{border-left:6px solid #ccc!important; padding-left: 5px}
 .border-red{border-color:#f44336!important}
 
+#headline span{
+    color: #fff;
+    padding: 4px 10px 4px 10px;
+    background-color: #FF0000;
+    border-radius: 5px;
+    font-family: inherit;
+    font-size: 16px;
+}
+
+    #headline .judul{
+    padding-top: 8px;
+	}
+	#headline .artikel{
+		font-size: larger;
+	}
+	#headline .date{
+    font-size: 16px;
+    padding: 4px 10px 4px 10px;
+	}
+@media (max-width: 450px) {
+	#headline .kategoriberita{
+		margin: 0 8px 0 8px;
+	}
+	#headline .caption-bottommiddle{position:absolute;left:50%;bottom:0;transform:translate(-50%,0%);-ms-transform:translate(-50%,0%);width: 100%; opacity: 0.5;height: 56%;}
+	#headline .rose{color:#fff!important;background-color:#000!important}
+	#headline .margin{margin:0!important;}
+	#headline .caption-bottomleft{position:absolute;left:0;bottom:0}
+	#headline .text-white{
+		font-size: 12px;
+	}
+	#headline img{
+		height: 200px;
+	}
+	#headline span{
+    color: #fff;
+    padding: 4px 10px 4px 10px;
+    background-color: #FF0000;
+    border-radius: 5px;
+    font-family: inherit;
+    font-size: 10px;
+	}
+	#headline .date{
+    font-size: 12px;
+    padding: 4px 10px 4px 10px;
+	}
+    #headline .judul{
+	font-size: large;
+    padding: 8px;
+	}
+	#headline .artikel{
+		font-size: small;padding: 8px;
+	}
+
+}
+
   </style>
 
-<section id="kontak">
+<section id="headline">
 		<div class="container">
 					<header class="section-header">
 						<h3>HEADLINE</h3>
@@ -103,25 +158,22 @@ img{width:100%;height:auto;}
 					</header>
 						<div class="row">
 					 
-							<div class="bg-img">
+							<div class="bg-img" style="color: #fff;">
 						      <img class="img-responsive" src="img/berita/pala.jpg">
-						      <div class="caption-bottommiddle large text-white rose" style="width: 100%; opacity: 0.5;height: 30%;">
-						        <h1 class="text-white">Octofect - Festival di Auto2000</h1>
-						        <h3 class="text-white">Jelang akhir tahun,Auto 2000 sajikan festival promo untuk<br>memberi kemudahan dan kenyamanan pembeli...</h3>
-						       </div>
-						      <div class="caption-bottomleft leftbar border-red margin">
-						        <h4 class="text-white">ALPHAD</h4>
+						      <div class="caption-bottommiddle large text-white rose"></div>
+						      <div class="caption-bottomleft margin">
+						        <h1 class="judul">Octofect - Festival di Auto2000</h1>
+						        <div class="kategoriberita">
+			              		<span><i>Promosi</i></span><i class="date">24 Oct 2019</i>
+			              		<div>
+						        <h3 class="artikel">Jelang akhir tahun,Auto 2000 sajikan festival promo untuk<br>memberi kemudahan dan kenyamanan pembeli...</h3>
 						      </div>
 							</div>
 						</div>
 </section>
 
-<section id="hargadetail">
+<section id="beritalainnya">
 		<div class="container">
-			<header class="section-header">
-			<h3>DAFTAR TERBARU</h3>
-			<div class="daftarterbaru"></div>
-			</header>
 			<div class="row">
 			    <div class="col-md-12">
 					<div class="span12">
@@ -217,6 +269,7 @@ img{width:100%;height:auto;}
 											<div class="caption">
 												<span><i>Promosi</i></span><i class="date">24 Oct 2019</i>
 											  <h4>Octofest – Festival di Auto2000</h4>
+											  <span><i>Promosi</i></span><i class="date">24 Oct 2019</i>
 											  <p>Jelang akhir tahun, Auto 2000 sajikan festival promo untuk memberi kemudahan dan kenyamanan pembeli...</p>
 										  </div>
 										</div>
@@ -224,8 +277,8 @@ img{width:100%;height:auto;}
 								
 			                </div><!--/carousel-inner-->
 							</div><!--/myCarousel-->
-				            <button style="margin-top: 10%;position: absolute;top: 0;left: 0;font-size: 20px;color: #fff;text-align: center;" class="slick-prev btn btn-primary left" aria-hidden="true" ><</button>
-				            <button style="margin-top: 10%;position: absolute;top: 0;right: 0;font-size: 20px;color: #fff;text-align: center;"  class="slick-next btn btn-primary right" aria-hidden="true">></button> 
+				            <button style="margin-top: 120px;position: absolute;top: 0;left: 0;font-size: 20px;color: #fff;text-align: center;" class="slick-prev btn btn-primary left" aria-hidden="true" ><i class="fa fa-chevron-left"></i></button>
+				            <button style="margin-top: 120px;position: absolute;top: 0;right: 0;font-size: 20px;color: #fff;text-align: center;"  class="slick-next btn btn-primary right" aria-hidden="true"><i class="fa fa-chevron-right"></i></button> 
 
 					</div>
 			    </div>
@@ -241,7 +294,7 @@ img{width:100%;height:auto;}
 				</header>
 		      	<div class="row thumbnail">
 			        <div class="col-sm-8 col-md-4"  style="padding: 0;">
-			            <img src="img/berita/image12.png" alt="">
+			            <img src="img/berita/image12.png" class="img-responsive" alt="">
 			       	</div>
 			        <div class="col-sm-16 col-md-8">
 			              	<div class="caption">
