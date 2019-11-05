@@ -30,6 +30,7 @@
 		});
 	});
 </script>
+<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
 
 </head>
 <body>
@@ -77,25 +78,25 @@
 	          	<div class="container">
 	            <li class="row">
 		            	<div class="col-sm-12 col-md-2" style="margin-bottom: 6px;height: 135px;border-radius: 9px;">
-			                <a href="#sigra" >
+			                <a href="pricelist.html" >
 			                  <img src="img/pricelist/Sigra 4.png" class="center-block" style="padding-top: 9px;border-bottom: 2px solid #000000;" />
 				                  <h4 class="text-center" style="color: #ff0000;margin: 0;">SIGRA</h4>
 			                </a>
 			            </div>
 		            	<div class="col-sm-12 col-md-2" style="margin-bottom: 6px;height: 135px;border-radius: 9px;">
-			                <a href="#ayla">
+			                <a href="pricelist.html">
 			                  <img src="img/pricelist/ayla.png" class="center-block" style="padding-top: 4px;border-bottom: 2px solid #000000;" />
 			                  <h4 class="text-center" style="color: #ff0000;margin: 0;">AYLA</h4>
 			                </a>
 			              </div>
 		            	<div class="col-sm-12 col-md-2" style="margin-bottom: 6px;height: 135px;border-radius: 9px;">
-			                <a href="#sirion">
+			                <a href="pricelist.html">
 			                  <img src="img/pricelist/Sirion 2 (1).png" class="center-block" style="padding-top: 40px;border-bottom: 2px solid #000000;" />
 			                  <h4 class="text-center" style="color: #ff0000;margin: 0;">SIRION</h4>
 			                </a>
 			              </div>
 		            	<div class="col-sm-12 col-md-2" style="margin-bottom: 6px;height: 135px;border-radius: 9px;">
-			                <a href="#minibusi">
+			                <a href="pricelist.html">
 			                  <img src="img/pricelist/Daihatsu-Gran-Max-MB-removebg-preview 1 (2).png" class="center-block" style="padding-top: 20px;border-bottom: 2px solid #000000;" />
 
 			                  <h4 class="text-center" style="color: #ff0000;margin: 0;">GRAND MAX MB</h4>
@@ -103,31 +104,31 @@
 			              </div>
 			              <div class="w-100"></div>
 		            	<div class="col-sm-12 col-md-2" style="margin-bottom: 6px;height: 135px;border-radius: 9px;">
-			                <a href="#himax">
+			                <a href="pricelist.html">
 			                  <img src="img/pricelist/daihatsu-hi-max-icy-white1 1.png" class="center-block" style="border-bottom: 2px solid #000000;" />
 			                  <h4 class="text-center" style="color: #ff0000;margin: 0;">HI MAX</h4>
 			                </a>
 			              </div>
 		            	<div class="col-sm-12 col-md-2" style="margin-bottom: 6px;height: 135px;border-radius: 9px;">
-			                <a href="#maxpu">
+			                <a href="pricelist.html">
 			                  <img src="img/pricelist/grand max pu 2.png" class="center-block" style="border-bottom: 2px solid #000000;" />
 			                  <h4 class="text-center" style="color: #ff0000;margin: 0;">GRAND MAX PU</h4>
 			                </a>
 			            </div>
 		            	<div class="col-sm-12 col-md-2" style="margin-bottom: 6px;height: 135px;border-radius: 9px;">
-			                <a href="#xenia">
+			                <a href="pricelist.html">
 			                  <img src="img/pricelist/Grand_New_Xenia 1.png" class="center-block" style="border-bottom: 2px solid #000000;" />
 			                  <h4 class="text-center" style="color: #ff0000;margin: 0;">GRAND NEW XENIA</h4>
 			                </a>
 			              </div>
 		            	<div class="col-sm-12 col-md-2" style="margin-bottom: 6px;height: 135px;border-radius: 9px;">
-			                <a href="#luxio">
+			                <a href="pricelist.html">
 			                  <img src="img/pricelist/luxio2 3.png" class="center-block" style="padding-top: 7px;border-bottom: 2px solid #000000;" />
 			                  <h4 class="text-center" style="color: #ff0000;margin: 0;">LUXIO</h4>
 			                </a>
 			              </div>
 		            	<div class="col-sm-12 col-md-2" style="margin-bottom: 6px;height: 135px;border-radius: 9px;">
-			                <a href="#luxio">
+			                <a href="pricelist.html">
 			                  <img src="img/pricelist/All-New-Terios 5.png" class="center-block" style="padding-top: 7px;border-bottom: 2px solid #000000;" />
 			                  <h4 class="text-center" style="color: #ff0000;margin: 0;">ALL NEW TERIOS</h4>
 			                </a>
@@ -376,7 +377,7 @@
 			<div class="row">
 				<div class="MultiCarousel" data-items="1,3" data-slide="1" id="MultiCarousel"  data-interval="1000">
 		            <div class="MultiCarousel-inner">
-			                <div class="item">
+			            <div class="item">
 			                	<img src="img/image4.png" class="ribben1 img-responsive">
 			                    <div class="pad15">
 			                    	<img src="img/sigra.png" width="" height="" class="img-responsive">
@@ -440,8 +441,8 @@
 		                    <p class="lead text-center">HI MAX</p>
 		                </div>
 		            </div>
-		            <button class="btn btn-primary leftLst"><</button>
-		            <button class="btn btn-primary rightLst">></button>
+		            <button class="slick-prev btn btn-primary leftLst"><</button>
+		            <button class="slick-next btn btn-primary rightLst">></button>
 		        </div>
 			</div>
 		</div>
@@ -849,6 +850,46 @@ $(document).ready(function(){
     $('#myCarousel').carousel({
 	    interval: 10000
 	})
+	});
+	</script>
+	<script type="text/javascript">
+	$('.MultiCarousel-inner').slick({
+	dots: false,
+	infinite: false,
+	arrows : true,
+	prevArrow: $('.slick-prev'),
+	nextArrow: $('.slick-next'),
+	speed: 300,
+	slidesToShow: 4,
+	slidesToScroll: 4,
+	responsive: [
+		{
+		breakpoint: 1024,
+		settings: {
+			slidesToShow: 3,
+			slidesToScroll: 3,
+			infinite: true,
+			dots: true
+		}
+		},
+		{
+		breakpoint: 600,
+		settings: {
+			slidesToShow: 2,
+			slidesToScroll: 2
+		}
+		},
+		{
+		breakpoint: 480,
+		settings: {
+			slidesToShow: 1,
+			slidesToScroll: 1
+		}
+		}
+		// You can unslick at a given breakpoint now by adding:
+		// settings: "unslick"
+		// instead of a settings object
+	]
 	});
 	</script>
 <!-- //here ends scrolling icon -->
